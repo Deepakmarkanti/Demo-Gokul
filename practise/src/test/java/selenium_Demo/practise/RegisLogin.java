@@ -24,9 +24,9 @@ WebDriver driver;
 	public void registration() throws InterruptedException {
 		
 		RegisterPageObjects.gender.click();
-		RegisterPageObjects.firstname.sendKeys("abc");
-		RegisterPageObjects.lastname.sendKeys("tyu");
-		RegisterPageObjects.email.sendKeys("abctyu@gmail.com");
+		RegisterPageObjects.firstname.sendKeys("oiu");
+		RegisterPageObjects.lastname.sendKeys("ygt");
+		RegisterPageObjects.email.sendKeys("oiuygt@gmail.com");
 		RegisterPageObjects.password.sendKeys("testing123");
 		RegisterPageObjects.confirmpassword.sendKeys("testing123");
 		RegisterPageObjects.regbutton.click();
